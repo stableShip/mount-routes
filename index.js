@@ -35,7 +35,7 @@ function mount(app) {
 }
 
 function mount_with_folder(app, routes_folder_path){
-  var r = arguments[1] || './routes';
+  var r = arguments[1] || '../../routes';
   
   console.log('mount routes_folder_path = ' + r)
   routes = requireDirectory(module, r);
